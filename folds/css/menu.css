@@ -1,0 +1,128 @@
+.menuText {
+    color: black;
+    font-size: 30px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.nameInput { 
+    border: 5px solid black;
+    font-size: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+    border-radius: 10px;
+    background: black;
+}
+
+.nameInput:hover {
+    border-color: white;
+}
+
+.playButton {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: darkgreen;
+    border: 1px solid lightgreen;
+    border-radius: 20px;
+}
+
+.playButton:hover {
+    background: lightgreen;
+    border-color: darkgreen;
+    cursor: pointer;
+}
+/* Controls Menu + Title */
+
+.controlsMenu {
+    background-image: url("https://t4.ftcdn.net/jpg/00/98/59/35/360_F_98593539_L3cNIqMZT511Qoz2DXe31xBAqMqPYdGj.jpg");
+    background-position: cover;
+    width: 200px;
+    height: 400px;
+    position: absolute;
+    border-radius: 50px;
+}
+
+.controlsTitle {
+    font-size: 30px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+
+/* Controls Texts */
+
+/*ControlsShoot*/
+
+.controlsTextShoot {
+    font-size: 15px;
+    font-family: 'Bebas Neue', sans-serif;
+    background: linear-gradient(to right, rgba(0,213,255,1) 0%, rgba(0,7,255,1) 100%); 
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+.controlsTextShootDiv1 {
+    background: linear-gradient(90deg, rgba(0,213,255,1) 0%, rgba(0,7,255,1) 100%);
+    width: 180px;
+    height: 40px;
+    position: absolute;
+    border-radius: 50px;
+}
+
+.controlsTextShootDiv2 {
+    background: white;
+    width: 160px;
+    height: 20px;
+    position: absolute;
+    border-radius: 50px;
+}
+
+.controlsTextShootDiv2:hover {
+    cursor: pointer;
+}
+
+/*ControlsReload*/
+
+.controlsTextReload {
+    font-size: 15px;
+    font-family: 'Bebas Neue', sans-serif;
+    background: linear-gradient(to right, rgba(37,255,0,1) 0%, rgba(14,121,0,1) 100%); 
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+.controlsTextReloadDiv1 {
+    background: linear-gradient(90deg, rgba(37,255,0,1) 0%, rgba(14,121,0,1) 100%);
+    width: 180px;
+    height: 40px;
+    position: absolute;
+    border-radius: 50px;
+}
+
+.controlsTextReloadDiv2 {
+    background: white;
+    width: 160px;
+    height: 20px;
+    position: absolute;
+    border-radius: 50px;
+}
+
+.controlsTextReloadDiv2:hover {
+    cursor: pointer;
+}
+
+/* Objetctive Menu + Title */
+
+.infoMenu {
+    background-image: url("https://t4.ftcdn.net/jpg/00/98/59/35/360_F_98593539_L3cNIqMZT511Qoz2DXe31xBAqMqPYdGj.jpg");
+    background-position: cover;
+    width: 200px;
+    height: 400px;
+    position: absolute;
+    border-radius: 50px;
+}
+
+.infoTitle {
+    font-size: 30px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
